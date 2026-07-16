@@ -1,0 +1,79 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="card" style="width: 80%;margin: auto; margin-top:5%; padding-bottom: 2%;">
+    <div class="banner" name="contact-header" style="padding: 2%; text-align: center;">
+      <h1>Contact Us</h1>
+      <p>Have questions about our domestic or imported cars? Reach out to us today!</p>
+    </div>
+    
+    <div style="display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap; margin:auto; width: 95%;">
+      
+      <div class="card" style="width: 45%; margin-bottom: 20px;">
+        <div class="card-body">
+          <h3 class="card-title">Get in Touch</h3>
+          <hr>
+          <p class="card-text"><strong>Address:</strong> 1234 Best Cars Blvd, Auto City, TX 75034</p>
+          <p class="card-text"><strong>Phone:</strong> (555) 987-6543</p>
+          <p class="card-text"><strong>Email:</strong> sales@bestcarsdealership.com</p>
+          <br>
+          <h5>Business Hours</h5>
+          <p class="card-text">Monday - Friday: 9:00 AM - 8:00 PM</p>
+          <p class="card-text">Saturday: 10:00 AM - 6:00 PM</p>
+          <p class="card-text">Sunday: Closed</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 45%; margin-bottom: 20px;">
+        <div class="card-body">
+          <h3 class="card-title">Send a Message</h3>
+          <hr>
+          <form>
+            <div class="mb-3">
+              <label for="nameInput" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="nameInput" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="emailInput" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="messageInput" class="form-label">Message</label>
+              <textarea class="form-control" id="messageInput" rows="4" placeholder="How can we help you?"></textarea>
+            </div>
+            <button type="submit" class="btn" style="background-color: darkturquoise; color: black; font-weight: bold;">Submit</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
